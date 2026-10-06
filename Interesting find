@@ -1,0 +1,9 @@
+Select ID, NAME, COUNTRYCODE, DISTRICT, POPULATION
+From CITY;
+
+HOWEVER
+
+Select *
+From CITY;
+
+works as well - smarter for selecting all attributes from a table, especially if the table has alot of rows!
